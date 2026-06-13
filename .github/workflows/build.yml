@@ -16,6 +16,8 @@ jobs:
         with:
           name: de4dot-netfx
           path: |
-            **/Release/*.exe
-            **/Release/*.dll
+            Release/**/*.exe
+            Release/**/*.dll
+            **/Release/**/*.exe
+            **/Release/**/*.dll
             !**/*.pdb
